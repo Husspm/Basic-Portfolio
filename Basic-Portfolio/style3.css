@@ -50,18 +50,44 @@ header {
 	margin-left: 100px;
 	float: left;
 	background-color: white;
-	width: 30%;
 	padding-left: 20px;
 	padding-right: 20px;
-	padding-bottom: 20px;
 	margin-bottom: 30px;
+	overflow: hidden;
+	width: 440px;
 }
-.logo {
+.move {
+	position: relative;
+	display: inline-block;
+	float: left;
+}
+.top2 {
+	font-size: 20px;
+	position: absolute;
+	top: 130px;
+	left: 10px;
+	width: 185px;
+	background-color: #4aaaa5;
+	color: white;
+	font-family: "Georgia";
+	padding: 10px 0px 10px 15px;	
+}
+.portphoto {
 	height: 205px;
-	width: 150px;
+	width: 200px;
 	float: left;
 	padding-left: 10px;
-	padding-right: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+}
+.portphoto2 {
+	height: 205px;
+	width: 200px;
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 20px;
+	clear: both;
 }
 .line {
 	padding-left: 10px;
@@ -74,22 +100,19 @@ p {
 	font-family: "Arial";
 	font-size: 20px;
 }
-h3 {
-	font-family: "Arial";
-	color: #777777;
-}
 .connect {
 	margin: 70px 0 0 50px;
 	float: left;
 	background-color: #ffffff;
 	width: 23%;
-	padding: 0px 20px 30px 20px;
+	padding: 0px 20px 0px 20px;
 }
 .small-logo {
 	height: 90px;
 	width: 90px;
 	float: left;
 	padding-left: 20px;
+	padding-bottom: 20px;
 }
 
 .wrap {

@@ -50,7 +50,7 @@ header {
 	margin-left: 100px;
 	float: left;
 	background-color: white;
-	width: 30%;
+	width: 40%;
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-bottom: 20px;
@@ -69,14 +69,10 @@ header {
 	border-bottom: solid 3px #cccccc;
 }
 p {
-	padding-left: 10px;
+	padding-left: 0px;
 	padding-right: 20px;
 	font-family: "Arial";
 	font-size: 20px;
-}
-h3 {
-	font-family: "Arial";
-	color: #777777;
 }
 .connect {
 	margin: 70px 0 0 50px;
@@ -107,4 +103,23 @@ footer {
 	font-family: "Arial";
 	clear: both;
 	border-top: 5px solid #4aaaa5;
+}
+.name {
+	display: block;
+}
+input {
+	width: 100%;
+	padding: 5px 0 5px 0;
+}
+.msg {
+	height: 200px;
+}
+button {
+	margin-top: 10px;
+	margin-left: 10px;
+	padding: 5px 5px 5px 5px;
+	background-color: #4aaaa5;
+	color: white;
+	font-family: "Georgia";
+	font-size: 30px;
 }
