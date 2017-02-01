@@ -82,19 +82,19 @@ h3 {
 	margin: 70px 0 0 50px;
 	float: left;
 	background-color: #ffffff;
-	width: 23%;
 	padding: 0px 20px 30px 20px;
 }
 .small-logo {
 	height: 90px;
 	width: 90px;
 	float: left;
-	padding-left: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
 }
 
 .wrap {
-	min-height: 100%;
-margin-bottom: -70px;
+	height: 100%;
+	display: inline-block;
 }
 footer, .push {
 	height: 70px;
